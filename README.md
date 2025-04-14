@@ -73,6 +73,7 @@ email2@example.com,password2
 Add Facebook group URLs (one per line):
 
 https://www.facebook.com/groups/group1
+
 https://www.facebook.com/groups/group2
 
 ---
