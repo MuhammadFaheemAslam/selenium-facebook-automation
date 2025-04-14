@@ -63,6 +63,7 @@ pip install -r requirements.txt
 Add your Facebook accounts (one per line):
 
 email1@example.com,password1
+
 email2@example.com,password2
 
 ---
