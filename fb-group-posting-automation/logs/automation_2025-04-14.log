@@ -1,0 +1,377 @@
+2025-04-14 16:21:48,002 - INFO - <module> - ==================================================
+2025-04-14 16:21:48,002 - INFO - <module> - 🚀 Starting Facebook Group Posting Automation Script
+2025-04-14 16:21:48,002 - INFO - <module> - 🕒 Run started at: 2025-04-14 16:21:48
+2025-04-14 16:21:48,002 - INFO - <module> - ==================================================
+2025-04-14 16:21:48,663 - INFO - login_facebook - 🔐 Logging in as gulamjani7651@gmail.com
+2025-04-14 16:22:05,300 - INFO - login_facebook - ✅ Successfully logged in as gulamjani7651@gmail.com
+2025-04-14 16:22:07,452 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/www.jbawwarehouseholesale/buy_sell_discussion
+2025-04-14 16:22:07,530 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:22:08,130 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:22:08,696 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:22:09,187 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:22:11,240 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:22:11,248 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:22:13,254 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:22:20,170 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/2093127094250122
+2025-04-14 16:22:20,221 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:22:20,795 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:22:21,374 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:22:21,817 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:22:23,865 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:22:23,870 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:22:25,876 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:22:32,921 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/688665127870956
+2025-04-14 16:22:53,013 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/688665127870956 | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:22:53,014 - ERROR - failed_log - Failed to post in group: https://www.facebook.com/groups/688665127870956 with account: gulamjani7651@gmail.com
+2025-04-14 16:22:54,749 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/762855850435234
+2025-04-14 16:22:54,792 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:22:55,340 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:22:55,390 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:22:55,800 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:22:57,833 - ERROR - post_in_facebook_group - File input error for media: Message: invalid argument: the element can not hold multiple files
+  (Session info: chrome=135.0.7049.85)
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe2b98 cxxbridge1$string$len + 355876
+4   chromedriver                        0x0000000100fded3c cxxbridge1$string$len + 339912
+5   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+6   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+7   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+8   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+9   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+10  chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+11  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+12  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+13  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+14  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+15  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+16  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:22:57,833 - ERROR - failed_log - Failed to post in group: https://www.facebook.com/groups/762855850435234 with account: gulamjani7651@gmail.com
+2025-04-14 16:22:59,342 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/localbuyselladvertise
+2025-04-14 16:22:59,417 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:23:00,035 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:23:00,624 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:23:01,042 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:23:03,089 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:23:03,095 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:23:05,100 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:23:11,623 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/centralflbuyselltrade
+2025-04-14 16:23:11,727 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:23:12,865 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:23:13,448 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:23:13,867 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:23:15,902 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:23:15,908 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:23:17,914 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:23:24,796 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/470039263014748
+2025-04-14 16:23:24,894 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:23:25,438 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:23:25,489 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:23:25,901 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:23:27,942 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:23:27,946 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:23:29,951 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:23:37,246 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/789763731131686
+2025-04-14 16:23:37,373 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:23:37,970 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:23:38,054 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:23:38,479 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:23:40,523 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:23:40,527 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:23:42,532 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:23:49,128 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/originalsouthlakecountycommunityawareness
+2025-04-14 16:23:49,240 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:23:49,790 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:23:50,367 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:23:50,810 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:23:52,861 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:23:52,866 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:23:54,871 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:24:01,313 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/LakelandUsedFurnitureForSale
+2025-04-14 16:24:01,397 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:24:01,994 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:24:02,580 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:24:02,993 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:24:05,067 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:24:05,071 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:24:07,076 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:24:13,427 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/263458537003449/buy_sell_discussion
+2025-04-14 16:24:13,502 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:24:14,135 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:24:14,703 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:24:15,139 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:24:17,182 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:24:17,186 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:24:19,191 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:24:26,367 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/512394008837006
+2025-04-14 16:24:26,423 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:24:26,959 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:24:27,517 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:24:27,948 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:24:29,995 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:24:29,998 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:24:32,004 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:24:38,790 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/635474463239046
+2025-04-14 16:24:38,871 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:24:39,422 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:24:40,004 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:24:40,437 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:24:42,460 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:24:42,465 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:24:44,470 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:24:51,365 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/740795495966187
+2025-04-14 16:24:51,518 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:24:52,105 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:24:52,685 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:24:53,104 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:24:55,146 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:24:55,185 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:24:57,190 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:25:03,948 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/321681091525921/buy_sell_discussion
+2025-04-14 16:25:04,020 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:25:04,565 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:25:05,149 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:25:05,575 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:25:07,617 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:25:07,623 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:25:09,628 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:25:16,791 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/1686913268202690
+2025-04-14 16:25:16,981 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:25:17,542 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:25:18,120 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:25:18,552 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:25:20,600 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:25:20,639 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:25:22,644 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:25:28,841 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/CheezedaRippa
+2025-04-14 16:25:48,884 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/CheezedaRippa | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:25:48,884 - ERROR - failed_log - Failed to post in group: https://www.facebook.com/groups/CheezedaRippa with account: gulamjani7651@gmail.com
+2025-04-14 16:25:50,713 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/1280703691969508
+2025-04-14 16:26:10,779 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/1280703691969508 | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:26:10,779 - ERROR - failed_log - Failed to post in group: https://www.facebook.com/groups/1280703691969508 with account: gulamjani7651@gmail.com
+2025-04-14 16:26:12,422 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/Clermont.Minneola/buy_sell_discussion
+2025-04-14 16:26:12,548 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:26:13,107 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:26:13,160 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:26:13,582 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:26:15,633 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:26:15,637 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:26:17,642 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:26:22,648 - INFO - run_bot - === Retry Attempt 1 ===
+2025-04-14 16:26:22,648 - INFO - run_bot -  
+2025-04-14 16:26:22,649 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/688665127870956
+2025-04-14 16:26:24,389 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/688665127870956
+2025-04-14 16:26:44,436 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/688665127870956 | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:26:44,436 - INFO - run_bot -  
+2025-04-14 16:26:44,436 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/762855850435234
+2025-04-14 16:26:49,232 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/762855850435234
+2025-04-14 16:26:49,305 - INFO - post_in_facebook_group - Clicked 'Write something...'
+2025-04-14 16:26:49,861 - INFO - post_in_facebook_group - Clicked 'Add to your post'
+2025-04-14 16:26:50,442 - INFO - post_in_facebook_group - Clicked 'Photo/video'
+2025-04-14 16:26:50,859 - INFO - post_in_facebook_group - Added 'Caption'
+2025-04-14 16:26:52,906 - INFO - post_in_facebook_group - Uploaded 'Media files'
+2025-04-14 16:26:52,909 - INFO - post_in_facebook_group - Media preview loaded successfully
+2025-04-14 16:26:54,914 - INFO - post_in_facebook_group - Post submitted successfully.
+2025-04-14 16:26:59,918 - INFO - run_bot - Posted successfully in retry attempt 1: https://www.facebook.com/groups/762855850435234
+2025-04-14 16:26:59,918 - INFO - run_bot -  
+2025-04-14 16:26:59,919 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/CheezedaRippa
+2025-04-14 16:27:01,229 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/CheezedaRippa
+2025-04-14 16:27:21,358 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/CheezedaRippa | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:27:21,358 - INFO - run_bot -  
+2025-04-14 16:27:21,358 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/1280703691969508
+2025-04-14 16:27:23,973 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/1280703691969508
+2025-04-14 16:27:44,060 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/1280703691969508 | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:27:44,061 - INFO - update_failed_groups_file - Updated failed groups file with 3 entries.
+2025-04-14 16:27:44,061 - INFO - run_bot - === Retry Attempt 2 ===
+2025-04-14 16:27:44,061 - INFO - run_bot -  
+2025-04-14 16:27:44,061 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/688665127870956
+2025-04-14 16:27:45,589 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/688665127870956
+2025-04-14 16:28:05,643 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/688665127870956 | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:28:05,643 - INFO - run_bot -  
+2025-04-14 16:28:05,644 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/CheezedaRippa
+2025-04-14 16:28:06,980 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/CheezedaRippa
+2025-04-14 16:28:27,117 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/CheezedaRippa | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:28:27,117 - INFO - run_bot -  
+2025-04-14 16:28:27,117 - INFO - run_bot - Retrying group: https://www.facebook.com/groups/1280703691969508
+2025-04-14 16:28:28,618 - INFO - post_in_facebook_group - Navigated to group: https://www.facebook.com/groups/1280703691969508
+2025-04-14 16:28:48,646 - ERROR - post_in_facebook_group - Error posting in group https://www.facebook.com/groups/1280703691969508 | 
+ Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000101462dec cxxbridge1$str$ptr + 2817040
+1   chromedriver                        0x000000010145b088 cxxbridge1$str$ptr + 2784940
+2   chromedriver                        0x0000000100fa28d8 cxxbridge1$string$len + 93028
+3   chromedriver                        0x0000000100fe96a0 cxxbridge1$string$len + 383276
+4   chromedriver                        0x000000010102a7b8 cxxbridge1$string$len + 649796
+5   chromedriver                        0x0000000100fdda80 cxxbridge1$string$len + 335116
+6   chromedriver                        0x0000000101427c74 cxxbridge1$str$ptr + 2575000
+7   chromedriver                        0x000000010142af40 cxxbridge1$str$ptr + 2588004
+8   chromedriver                        0x00000001014079fc cxxbridge1$str$ptr + 2443296
+9   chromedriver                        0x000000010142b7bc cxxbridge1$str$ptr + 2590176
+10  chromedriver                        0x00000001013f8af0 cxxbridge1$str$ptr + 2382100
+11  chromedriver                        0x000000010144b9a0 cxxbridge1$str$ptr + 2721732
+12  chromedriver                        0x000000010144bb2c cxxbridge1$str$ptr + 2722128
+13  chromedriver                        0x000000010145acd4 cxxbridge1$str$ptr + 2783992
+14  libsystem_pthread.dylib             0x0000000197d2c2e4 _pthread_start + 136
+15  libsystem_pthread.dylib             0x0000000197d270fc thread_start + 8
+
+2025-04-14 16:28:48,647 - INFO - update_failed_groups_file - Updated failed groups file with 3 entries.
+2025-04-14 16:28:48,648 - INFO - run_bot - Logging out and closing browser for gulamjani7651@gmail.com
+2025-04-14 16:28:48,865 - INFO - run_bot - ==================================================
+2025-04-14 16:28:48,865 - INFO - run_bot - 🎯 Total Groups Successfully Posted: 16
+2025-04-14 16:28:48,865 - INFO - run_bot - ❌ Total Groups Failed After Retries: 3
+2025-04-14 16:28:48,865 - INFO - run_bot - ==================================================
