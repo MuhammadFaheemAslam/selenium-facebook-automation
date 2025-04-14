@@ -57,10 +57,10 @@ def post_in_facebook_group(driver, group_url, media_files, caption):
 
         # # Optional: Click Post button
         try:
-            # post_button = WebDriverWait(driver, 15).until(
-            #     EC.element_to_be_clickable((By.XPATH, "//div[@aria-label='Post' and @role='button']"))
-            # )
-            # post_button.click()
+            post_button = WebDriverWait(driver, 15).until(
+                EC.element_to_be_clickable((By.XPATH, "//div[@aria-label='Post' and @role='button']"))
+            )
+            post_button.click()
             logging.info("Post submitted successfully.")
             time.sleep(5)
         except Exception as e:

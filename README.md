@@ -49,8 +49,9 @@ project-root/
 - Selenium
 
 ### 🔧 Install Dependencies
-
+```
 pip install -r requirements.txt
+```
 
 > Make sure you have [ChromeDriver](https://sites.google.com/chromium.org/driver/) installed and added to your system's PATH.
 
@@ -96,8 +97,9 @@ Add images or videos you want to post. Supported formats:
 
 ## ▶️ How to Run
 
+```
 python bot.py
-
+```
 ---
 
 ## 📊 Output & Logs
